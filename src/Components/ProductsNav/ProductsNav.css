@@ -1,7 +1,13 @@
 @media only screen and (min-width: 375px) and (max-width: 768px) {
   .item-count-column,
-  .recommended-column {
+  .filter-dropdown {
     display: none;
+  }
+
+  .filter-dropdown-mobile select {
+    border: none;
+    outline: none;
+    font-size: 14px;
   }
 
   .mobile-nav ul {
@@ -53,12 +59,10 @@
     margin-left: 0.5rem;
   }
 
-  .recommended-column {
-    flex-basis: 35%;
-  }
-
-  .recommended-column img {
-    margin-left: 1rem;
+  .filter-dropdown select {
+    width: 200px;
+    border: none;
+    outline: none;
   }
 }
 
@@ -88,11 +92,9 @@
     margin-left: 0.5rem;
   }
 
-  .recommended-column {
-    flex-basis: 23%;
-  }
-
-  .recommended-column img {
-    margin-left: 1rem;
+  .filter-dropdown select {
+    width: 200px;
+    border: none;
+    outline: none;
   }
 }
