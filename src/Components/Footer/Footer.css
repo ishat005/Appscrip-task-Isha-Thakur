@@ -1,0 +1,339 @@
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    color: #fff;
+  }
+
+  .footer-col-1,
+  .footer-col-2,
+  .footer-col-3,
+  .footer-col-4,
+  .footer-col-5 {
+    text-align: left;
+    margin-left: 1rem;
+  }
+
+  .footer-col-1,
+  .footer-col-2,
+  .footer-col-3,
+  .footer-col-4 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+  }
+
+  .payment-info {
+    border-top: 1px solid #ccc;
+    padding-top: 1rem;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    display: inline;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  li:nth-last-child(1) {
+    margin-left: 20px;
+  }
+
+  .footer-col-2 p {
+    display: none;
+  }
+
+  .paymentMethods {
+    width: 90%;
+    margin-left: 0rem;
+  }
+
+  .social-icons {
+    margin-right: 3rem;
+  }
+
+  .social-icons img {
+    padding: 5px;
+  }
+
+  .footer-container p:nth-last-child(2) {
+    margin-top: 1rem;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  input[type="email"] {
+    width: 156px;
+    height: 28px;
+    padding: 14px 24px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+  }
+
+  button {
+    background-color: #000000;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    width: 125px;
+    height: 60px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    color: #fff;
+  }
+  .footer-row-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .footer-col-2 {
+    text-align: left;
+  }
+
+  .footer-row-1 .footer-col-1,
+  .footer-row-1 .footer-col-2 {
+    width: 45%;
+  }
+
+  .footer-col-1 p {
+    text-align: left;
+    margin-left: 1.8rem;
+  }
+
+  input[type="email"] {
+    width: 136px;
+    height: 10px;
+    padding: 14px 22px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    margin-left: 1.8rem;
+  }
+
+  button {
+    background-color: #000000;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0px 13px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    width: 118px;
+    height: 46px;
+    text-align: center;
+  }
+
+  .footer-row-2 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-row-2 .footer-col-3,
+  .footer-row-2 .footer-col-4,
+  .footer-row-2 .footer-col-5 {
+    width: 30%;
+  }
+
+  .footer-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-row-2 {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ccc;
+  }
+
+  .footer-row-2 .footer-col-3,
+  .footer-row-2 .footer-col-4,
+  .footer-row-2 .footer-col-5 {
+    width: 30%;
+  }
+
+  .footer-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-container li {
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+
+  .footer-col-3 ul li,
+  .footer-col-4 ul li {
+    margin-left: 2.5rem;
+  }
+
+  .payment-info {
+    text-align: left;
+    margin-left: 2.5rem;
+  }
+
+  .paymentMethods {
+    width: 64%;
+    margin-left: 1rem;
+  }
+
+  .social-icons {
+    margin-right: 3rem;
+  }
+
+  .social-icons img {
+    padding: 5px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    color: #fff;
+  }
+  .footer-row-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .footer-col-2 {
+    text-align: left;
+  }
+
+  .footer-col-1 h3,
+  .footer-col-3 h3,
+  .footer-col-4 h3,
+  .footer-col-5 h3 {
+    text-align: left;
+    margin-left: 2rem;
+  }
+
+  .footer-row-1 .footer-col-1,
+  .footer-row-1 .footer-col-2 {
+    width: 45%;
+  }
+
+  .footer-col-1 p {
+    text-align: left;
+    margin-left: 1.8rem;
+  }
+
+  input[type="email"] {
+    width: 275px;
+    height: 10px;
+    padding: 14px 22px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    margin-left: -4.2rem;
+    margin-top: 1rem;
+  }
+
+  button {
+    background-color: #000000;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0px 13px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    width: 162px;
+    height: 46px;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .footer-row-2 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-row-2 .footer-col-3,
+  .footer-row-2 .footer-col-4,
+  .footer-row-2 .footer-col-5 {
+    width: 30%;
+  }
+
+  .footer-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-row-2 {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ccc;
+  }
+
+  .footer-row-2 .footer-col-3,
+  .footer-row-2 .footer-col-4,
+  .footer-row-2 .footer-col-5 {
+    width: 30%;
+  }
+
+  .footer-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-container li {
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+
+  .footer-col-3 ul li,
+  .footer-col-4 ul li {
+    margin-left: 2.1rem;
+  }
+
+  .payment-info {
+    text-align: left;
+    margin-left: 2.5rem;
+  }
+
+  .paymentMethods {
+    width: 64%;
+    margin-left: -4rem;
+  }
+
+  .social-icons {
+    margin-right: 14rem;
+  }
+
+  .social-icons img {
+    padding: 5px;
+  }
+}

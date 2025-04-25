@@ -1,0 +1,79 @@
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+  .content-container .nav-pane {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .content-container {
+    display: flex;
+    width: 100vw;
+  }
+
+  .nav-pane {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .content-container {
+    display: flex;
+  }
+
+  .nav-pane {
+    width: 400px;
+    background-color: #fff;
+    padding: 20px;
+  }
+
+  .nav-pane input[type="checkbox"] {
+    margin-left: -7rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
+
+  .nav-pane label {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .nav-pane ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-pane li {
+    margin-bottom: 30px;
+    margin-left: 10px;
+    text-align: left;
+  }
+
+  .nav-pane h3 {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    text-align: left;
+  }
+
+  .nav-pane li ul {
+    padding-left: 2.5rem;
+  }
+
+  .nav-pane li li {
+    margin-top: -46px;
+  }
+
+  .nav-pane li:has(h3) {
+    border-top: 1px solid #ccc;
+  }
+
+  .nav-pane li:last-child:has(h3) {
+    border-bottom: 1px solid #ccc;
+  }
+
+  .nav-pane h3 img {
+    margin-left: 15rem;
+    position: relative;
+    bottom: 28px;
+  }
+}

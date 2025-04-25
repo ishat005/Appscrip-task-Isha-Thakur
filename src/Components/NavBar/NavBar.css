@@ -1,0 +1,140 @@
+/* Navbar.css */
+
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+  .navbar {
+    background-color: #e5e5e5;
+    text-align: center;
+    width: 100vw;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .icon:last-child,
+  .icon:nth-last-child(2),
+  .bottom-row-nav {
+    display: none;
+  }
+
+  .icon {
+    margin: 0 10px;
+  }
+
+  .logo-icon {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .menu-icon {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    padding-left: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .navbar {
+    background-color: #e5e5e5;
+    padding: 1em;
+    text-align: center;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .column {
+    flex-basis: 33%;
+  }
+
+  .icon {
+    margin: 0 5px;
+  }
+
+  .bottom-row-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+    margin-top: 2rem;
+  }
+
+  .bottom-row-nav a {
+    color: #252020;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .navbar {
+    background-color: #e5e5e5;
+    padding: 1em;
+    text-align: center;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .column {
+    flex-basis: 25%;
+  }
+
+  .column.icons {
+    margin-left: 20rem;
+  }
+
+  .column h2 {
+    margin-left: 20rem;
+  }
+
+  .icon {
+    margin: 0 10px;
+  }
+
+  .bottom-row-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 2rem;
+  }
+
+  .bottom-row-nav a {
+    color: #252020;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .logo-icon {
+    position: absolute;
+    top: 42px;
+    left: 66px;
+  }
+}
